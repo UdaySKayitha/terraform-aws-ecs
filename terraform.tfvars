@@ -12,7 +12,7 @@ desired_capacity          = 1
 max_size                  = 3
 min_size                  = 1
 vpc_id                    = "vpc-09dda42fc903cdd61"
-subnet_ids                = ["subnet-0d82ba3af1d3098bf", "subnet-0b3521928b8067075", "subnet-06fd519b71514cdfd"]
+subnet_ids                = ["subnet-0d82ba3af1d3098bf", "subnet-0b3521928b8067075"]
 alb_definitions = {
   backend     = { alb_type = "external", container_port = 3000 }
   frontend    = { alb_type = "external", container_port = 80 }
